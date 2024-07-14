@@ -32,7 +32,7 @@ function App() {
     items-center">
        {/* <div style={{backgroundImage:"linear-gradient(to top, #30cfd0 0%, #330867 100%)"}}  */}
        <div style={{backgroundImage:"linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)"}}
-      className="p-2 rounded-md h-60 w-96"  >
+      className="p-2 rounded-md h-68 w-96"  >
         <h2 className="font-medium shadow text-xl  text-white">Hello!⛅</h2>
         <p className="text-xl  text-white">Do you want to know the weather Report :)</p>
        <input type="text" onChange={handleInput} className="rounded-md h-6 text-xl mt-2 p-5 outline-none" placeholder="City Name ?" />
