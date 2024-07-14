@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url("https://watermark.lovepik.com/photo/20211118/large/lovepik-kings-weather-picture_500076690.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.shadow{
+    box-shadow: -15px 13px 268px 92px rgba(105,67,133,0.75);
+    -webkit-box-shadow: -15px 13px 268px 92px rgba(105,67,133,0.75);
+    -moz-box-shadow: -15px 13px 268px 92px rgb(105,67,133,0.75);
+}
